@@ -21,7 +21,6 @@ app.use(express.urlencoded());
 
 app.use('/api/usuarios',usuarios);
 app.use('/api/cursos',cursos);
-
 app.use('/api/auth',auth)
 
 
